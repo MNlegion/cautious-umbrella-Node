@@ -1,7 +1,72 @@
 // TODO: Include packages needed for this application
+const inquirer = require('inquirer');
+
 
 // TODO: Create an array of questions for user input
-const questions = [];
+// const questions = [];
+
+inquirer
+    .prompt([
+        {
+            type: 'input',
+            name: 'projectTitle',
+            message: 'What is the title of your project?'
+        },
+        {
+            type: 'input',
+            name: 'description',
+            message: 'Write a brief description of the project: '
+        },
+        {
+            type: 'input',
+            name: 'install',
+            message: 'Describe the installation process for your project if applicable: '
+        },
+        {
+            type: 'input',
+            name: 'utility',
+            message: 'What utilities or usage does your project provide?'
+        },
+        {
+            type: 'list',
+            name: 'licenses',
+            message: 'Select an appropriate license for your project: ',
+            choices: [
+                'Academic',
+                'Apache',
+                'GNU',
+                'ISC',
+                'MIT',
+                'Mozilla',
+                'Open'
+            ]
+        },
+        {
+            type: 'input',
+            name: 'contributers',
+            message: 'Who helped to contribute on this project?'
+        },
+        {
+            type: 'input',
+            name: 'tests',
+            message: 'Does your project contain a test?'
+        },
+        {
+            type: 'input',
+            name: 'questions',
+            message: 'What should I do if I encounter an issue?'
+        },
+        {
+            type: 'input',
+            name: 'username',
+            message: 'Please enter your GitHub username: (Required)'
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'Please enter your email: '
+        },
+    ])
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}

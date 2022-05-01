@@ -33,7 +33,7 @@ function questionPrompt() {
         },
         {
             type: 'list',
-            name: 'licenses',
+            name: 'license',
             message: 'Select an appropriate license for your project: ',
             choices: [
                 'Academic',

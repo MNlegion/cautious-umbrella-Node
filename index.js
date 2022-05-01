@@ -3,7 +3,7 @@
 const fs = require('fs');
 const util = require('util');
 const inquirer = require('inquirer');
-const generateMarkdown = require('./utils/generateMarkdown');
+const displayReadme = require('./utils/generateMarkdown');
 const asyncWriteFile = util.promisify(fs.writeFile);
 
 
@@ -81,8 +81,10 @@ function questionPrompt() {
 async function init() {
     try {
         const answers = await questionPrompt();
-        // const displayContent = displayReadme();
+        const displayContent = displayReadme(answers);
         // write README to dist
+        await asyncWriteFile('./dist/README.md', displayContent);
+        console.log('Successfully created README.md');
  }   catch(err) {
     console.log(err);
  }

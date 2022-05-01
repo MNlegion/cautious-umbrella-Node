@@ -11,7 +11,7 @@
 // function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
-function displayReadme() {
+function displayReadme(answers) {
   // return `# ${data.title}
 
   return `
@@ -43,7 +43,7 @@ function displayReadme() {
     ${answers.tests}
 
   ## Questions
-    ${answerrs.questions}
+    ${answers.questions}
 
   View my GitHub Profile: [${answers.username}](https://github.com/${answers.username})
 

@@ -1,9 +1,11 @@
 
 
-  <h1 align='center'>;jlkasdjfl;as</h1>
+  <h1 align='center'>Official Unofficial Pokemon Pokedex</h1>
+
+  ![license](https://img.shields.io/badge/license-MIT-brightgreen)
 
   ## Description
-    as;dlfjasdkl;
+    This project is self-built to help continue my learning of bootcamp modules. 
 
   ## Table of Contents
   - [Description](#description)
@@ -15,20 +17,22 @@
   - [Questions](#questions)
 
   ## Installation
-    asdl;kfjasdl;kfj
+    npm install inquirer
 
   ## License
-    ISC
+  ![license](https://img.shields.io/badge/license-MIT-brightgreen)
+  <br />
+  Covered under the MIT license.
 
   ## Contributers
-    ;lkjasdf
+    MNlegion
 
   ## Tests
-    a;ldfkjdsa
+    No tests are contained within. 
 
   ## Questions
-    a;lkdjfd
+    Please use the below GitHub and email information for questions. 
 
-  View my GitHub Profile: [a;lkjdfa](https://github.com/a;lkjdfa)
+  View my GitHub Profile: [MNlegion](https://github.com/MNlegion)
 
-  Contact me: a;lkdjfd
+  Contact me: rkreuser30@gmail.com

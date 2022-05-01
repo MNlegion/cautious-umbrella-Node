@@ -18,6 +18,8 @@ function displayReadme(answers) {
 
   <h1 align='center'>${answers.projectTitle}</h1>
 
+  ![license](https://img.shields.io/badge/license-${answers.license}-brightgreen)
+
   ## Description
     ${answers.description}
 
@@ -34,7 +36,9 @@ function displayReadme(answers) {
     ${answers.install}
 
   ## License
-    ${answers.license}
+  ![license](https://img.shields.io/badge/license-${answers.license}-brightgreen)
+  <br />
+  Covered under the ${answers.license} license.
 
   ## Contributers
     ${answers.contributers}

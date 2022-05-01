@@ -8,9 +8,8 @@ const asyncWriteFile = util.promisify(fs.writeFile);
 
 
 // TODO: Create an array of questions for user input
-// const questions = [];
 
-function questionPromt() {
+function questionPrompt() {
     return inquirer.prompt([
         {
             type: 'input',
@@ -76,10 +75,18 @@ function questionPromt() {
     
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+async function init() {
+    try {
+        const answers = await questionPrompt();
+        // const displayContent = displayReadme();
+        // write README to dist
+ }   catch(err) {
+    console.log(err);
+ }
+}
 
 // Function call to initialize apps
 init();

@@ -1,12 +1,17 @@
-// TODO: Include packages needed for this application
+// Variable and dependancies
+
+const fs = require('fs');
+const util = require('util');
 const inquirer = require('inquirer');
+const generateMarkdown = require('./utils/generateMarkdown');
+const asyncWriteFile = util.promisify(fs.writeFile);
 
 
 // TODO: Create an array of questions for user input
 // const questions = [];
 
-inquirer
-    .prompt([
+function questionPromt() {
+    return inquirer.prompt([
         {
             type: 'input',
             name: 'projectTitle',
@@ -66,7 +71,9 @@ inquirer
             name: 'email',
             message: 'Please enter your email: '
         },
-    ])
+    ]);
+}
+    
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}

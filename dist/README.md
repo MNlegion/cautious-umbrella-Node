@@ -1,11 +1,11 @@
 
 
-  <h1 align='center'>Official Unofficial Pokemon Pokedex</h1>
+  <h1 align='center'>README.md Generator</h1>
 
-  ![license](https://img.shields.io/badge/license-MIT-brightgreen)
+  ![license](https://img.shields.io/badge/license-MIT-informational)
 
   ## Description
-    This project is self-built to help continue my learning of bootcamp modules. 
+    This project uses the command line to generate a professional README.md file. 
 
   ## Table of Contents
   - [Description](#description)
@@ -17,21 +17,21 @@
   - [Questions](#questions)
 
   ## Installation
-    npm install inquirer
+    npm init
 
   ## License
-  ![license](https://img.shields.io/badge/license-MIT-brightgreen)
+  ![license](https://img.shields.io/badge/license-MIT-informational)
   <br />
   Covered under the MIT license.
 
   ## Contributers
-    MNlegion
+    Rob Kreuser, google, youtube, github
 
   ## Tests
-    No tests are contained within. 
+    No tests are contained within the project
 
   ## Questions
-    Please use the below GitHub and email information for questions. 
+    Please reach out to my below contact information. I will be happy to walk through the project and thought processes on the code within. 
 
   View my GitHub Profile: [MNlegion](https://github.com/MNlegion)
 

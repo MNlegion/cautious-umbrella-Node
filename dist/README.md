@@ -5,7 +5,7 @@
   ![license](https://img.shields.io/badge/license-MIT-informational)
 
   ## Description
-    This project uses the command line to generate a professional README.md file. 
+    This project generates a README.md for the user based on user input. 
 
   ## Table of Contents
   - [Description](#description)
@@ -17,7 +17,7 @@
   - [Questions](#questions)
 
   ## Installation
-    npm init
+    Inquirer
 
   ## License
   ![license](https://img.shields.io/badge/license-MIT-informational)
@@ -25,13 +25,13 @@
   Covered under the MIT license.
 
   ## Contributers
-    Rob Kreuser, google, youtube, github
+    MNlegion, Google, Youtube, GitHub
 
   ## Tests
-    No tests are contained within the project
+    No
 
   ## Questions
-    Please reach out to my below contact information. I will be happy to walk through the project and thought processes on the code within. 
+    Please reach out to me at the below contact fields for questions or concerns. 
 
   View my GitHub Profile: [MNlegion](https://github.com/MNlegion)
 
